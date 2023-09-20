@@ -50,7 +50,7 @@ public class Test01_choongang {
 			// 웹페이지 소스 가져오기
 			Document doc = Jsoup.connect(URL).get();
 			System.out.println(doc);
-
+ 
 		} catch (Exception e) {
 			System.out.println("크롤링 실패: " + e);
 		} // try ~ catch end
