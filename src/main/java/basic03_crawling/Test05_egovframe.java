@@ -18,7 +18,7 @@ public class Test05_egovframe {
 		// egovtrame.txt 파일에 저장하기
 
 		try {
-			String fileName = "D:\\java202307\\workspace\\basic03_crawling\\build\\classes\\basic03_crawling/egovframe.txt";
+			String fileName = "D:/java202307/workspace/basic03_crawling/src/main/java/basic03_crawling/egovframe.txt";
 			FileWriter fw=new FileWriter(fileName, true); //추가모드
 			PrintWriter out=new PrintWriter(fw, true);
 			
