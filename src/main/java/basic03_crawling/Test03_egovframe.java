@@ -25,7 +25,7 @@ public class Test03_egovframe {
 			for (int p = 0; p <= 220; p += 10) {
 				String page = "&pagerOffset=" + p;
 //				System.out.println(params+page);
-				Document doc = Jsoup.connect(URL+params+page).get();
+				Document doc = Jsoup.connect(URL + params + page).get();
 				System.out.println(doc.toString());
 			} // for end
 
